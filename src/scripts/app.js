@@ -1,5 +1,7 @@
 var username
+
 const text_area = document.getElementById("main-text-area")
+
 const send = () => {
     if (username == undefined) {
         username = "User1"
@@ -14,6 +16,7 @@ const send = () => {
         text.parentNode.removeChild(text)
     }, 10000)
 }
+
 const set_username = () => {
     username = document.getElementById("user_input_username").value
 }
