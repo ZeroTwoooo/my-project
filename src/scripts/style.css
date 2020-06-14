@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    color:white;
+    background-color: black;
+}
